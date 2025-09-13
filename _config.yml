@@ -5,7 +5,7 @@ baseurl: "" # leave empty unless repo is not yourusername.github.io
 url: "https://Tcnew10.github.io" # replace with your actual GitHub Pages URL
 
 # === Theme ===
-theme: minima   # simple, clean theme (GitHub-supported)
+theme: cayman  
 # alternatives: "cayman", "jekyll-theme-slate", "jekyll-theme-dinky"
 
 # === Author Info ===
