@@ -1,3 +1,33 @@
-title: Tyler Newton CAD Portfolio
-description: A showcase of my SolidWorks projects
-theme: minima   # or "cayman", "minimal", etc.
+# === Basic Site Settings ===
+title: "Tyler Newton – CAD Portfolio"
+description: "A showcase of SolidWorks projects, renderings, and design work."
+baseurl: "" # leave empty unless repo is not yourusername.github.io
+url: "https://Tcnew10.github.io" # replace with your actual GitHub Pages URL
+
+# === Theme ===
+theme: minima   # simple, clean theme (GitHub-supported)
+# alternatives: "cayman", "jekyll-theme-slate", "jekyll-theme-dinky"
+
+# === Author Info ===
+author:
+  name: "Tyler Newton"
+  email: "tcnew10@gmail.com"
+  github: "Tcnew10"
+  linkedin: "https://www.linkedin.com/in/newtontyler/"
+
+# === Navigation Links ===
+# These links will appear in the site header
+header_pages:
+  - index.md
+  - projects.md
+  - about.md
+  - contact.md
+
+# === Optional Settings ===
+markdown: kramdown
+permalink: pretty
+
+# === Plugins (GitHub Pages safe list) ===
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
