@@ -21,7 +21,6 @@ header_pages:
   - index.md
   - projects.md
   - about.md
-  - contact.md
 
 # === Optional Settings ===
 markdown: kramdown
